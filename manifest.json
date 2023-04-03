@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Base64 Decoder",
+    "version": "1.0",
+    "description": "Decode Base64 strings.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "128": "development.png"
+    },
+    "permissions": [
+      "activeTab",
+      "clipboardWrite",
+      "clipboardRead"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+}
